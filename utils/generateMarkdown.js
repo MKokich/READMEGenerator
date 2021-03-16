@@ -16,9 +16,13 @@ function generateMarkdown(data) {
   ![GitHub license](https://img.shields.io/badge/license-${data.license}-green.svg)
 
 ## Table of Contents
-
-${data.tableofcontents}
-(* = bullet points for table of contents)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## Description 
 
@@ -47,9 +51,7 @@ ${data.tests}
 ## Questions
 
 ${data.questions}
-
-
-`;
-}
+`
+;}
 
 module.exports = generateMarkdown;
